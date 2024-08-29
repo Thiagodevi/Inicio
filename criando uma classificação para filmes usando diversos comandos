@@ -1,0 +1,20 @@
+filmes = ["madagascar", "sherek", "jogos mortais", "luva de pedreiro", "manga boa"]
+print("bem vindos a classificação de filmes") 
+print("voce tera 5 filmes para avaliar") 
+print("os filmes são:")
+print("vc podera sair a qualquer momento da classficação votando em 0 a qualquer filme")
+
+for filme in filmes:
+  classificacao = input(f"como vc classificaria '{filme}' de 1 a 5? (ou '0' para parar): ")
+  if classificacao == '0':
+    print("voce encerrou a classificação")
+    break
+
+  classificacao = int(classificacao)
+  if classificacao <1 or classificacao>5:
+    print("coloque um numero valido")
+
+  else:
+    print(f"voce classificou o '{filme}' com '{classificacao}' estrelas")
+    
+    print("obrigado pelas classificaçãoes, volte sempre")
