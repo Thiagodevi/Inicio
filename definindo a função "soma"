@@ -1,0 +1,6 @@
+def soma(a, b):
+  resultado = a + b
+  return resultado
+
+resultado_soma = soma(10,5)
+print("resultado da soma de 10 + 5 é:", resultado_soma)
