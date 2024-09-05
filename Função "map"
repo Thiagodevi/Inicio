@@ -1,0 +1,8 @@
+#função map
+#aplica a uma função toda sequencia
+#map(função,sequencia)
+
+precos_em_dolar = {100,50,75,120}
+taxa_de_cambio = 3.75
+precos_em_real = list(map(lambda x: x * taxa_de_cambio, precos_em_dolar))
+print(precos_em_real)
