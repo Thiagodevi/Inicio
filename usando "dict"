@@ -1,0 +1,9 @@
+dici_1 = {}
+dici_1["nome"] = "maria"
+dici_1['idade'] = 25
+
+dici_2 = {'nome': "maria", 'idade' : 25}
+
+dici_3 = dict([('nome', 'maria'), ('idade', 25)])
+
+dici_4 = dict(nome = 'maria', idade = 25)
