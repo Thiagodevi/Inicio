@@ -1,0 +1,20 @@
+#mude o match por m
+import math as m
+
+ 
+
+math.sqrt(25)
+
+# da biblioteca importe apenas sqrt ai pode colocar direto
+from math import sqrt
+
+ 
+
+sqrt(25)
+
+#mude o match por m
+import math as m
+
+ 
+
+math.sqrt(25)
